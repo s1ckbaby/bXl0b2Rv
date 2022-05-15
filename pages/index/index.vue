@@ -84,6 +84,7 @@ export default {
 					this.$set(item, 'checked', false);
 				}
 			}
+			this.moveItem();
 		},
 		// 添加新的事项
 		addItem() {
